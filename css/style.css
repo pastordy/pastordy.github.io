@@ -40,7 +40,7 @@ a.nav-link {
 
 header#main {
   position: relative;
-  height: 100vh;
+  height: 95vh;
   background-image: url("../img/color-pencils.jpeg");
   background-position: center;
   background-attachment: fixed;
@@ -72,7 +72,7 @@ h1.cover-heading{
 
 .scroll-down {
   position: absolute;
-  bottom:  80px;
+  bottom:  100px;
   left: 50%;
   margin-left: -16px;
   display: block;
@@ -186,6 +186,31 @@ header #contact{
 }
 
 
+/* about */
+header #about{
+  height: 100vh;
+}
+
+#about .container {
+  padding-top: 15%;
+}
+
+#about p {
+  line-height: 1.9em;
+}
+
+/* work */
+header #work{
+  height: 100vh;
+}
+
+#work .container {
+  padding-top: 15%;
+}
+
+#work p {
+  line-height: 1.9em;
+}
 
 
 /*========================
@@ -217,7 +242,27 @@ END FOOTER
   hr {
     width: 55%;
   }
+}
 
+@media only screen and (max-width: 375px) {
+  #contact .container {
+    padding-top: 30%;
+  }
+
+  #about .container {
+    padding-top: 30%;
+  }
+
+  #work .container {
+    padding-top: 30%;
+  }
+
+  .email a {
+    font-size: 90%;
+  }
+  hr {
+    width: 65%;
+  }
 
 }
 
