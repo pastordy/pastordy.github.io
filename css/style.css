@@ -38,13 +38,23 @@ a.nav-link {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-header#main {
+/* header#main {
   position: relative;
   height: 95vh;
   background-image: url("../img/color-pencils.jpeg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+header#main {
+  position: relative;
+  height: 95vh;
+  background: url("../img/color-pencils.jpeg") no-repeat fixed 100%;
+  background-position: center;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
