@@ -1,9 +1,11 @@
 /*========================
 GLOBAL
 =========================*/
-
-
 body {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.d + .y {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -284,6 +286,8 @@ END FOOTER
 
 }
 
+
+/* iphone fix */
 
 @supports (-webkit-overflow-scrolling: touch) {
   header#main {
